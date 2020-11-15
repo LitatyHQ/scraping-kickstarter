@@ -178,7 +178,7 @@ inside a `strong` and then an `a` tag. Let's check that in pry:
 ```ruby
 project.css("h2.bbcard_name strong a").text
 ```
-
+learn
 Since Nokogiri gives us a bunch of nested nodes that all respond to the same
 methods, we can just chain a `css` method right onto this `project`. Neat, huh?
 
